@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert AccessRecord</title>
+</head>
+<body>
+    <center>
+        <h1>Insert AccessRecord</h1>
+        <form action="" method="ARFO">
+            {% csrf_token %}
+                {{ARFO.as_p}}
+
+            <input type="submit" value="Insert Access Record">
+        </form>
+    </center>
+</body>
+</html>
